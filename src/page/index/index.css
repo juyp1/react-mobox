@@ -1,0 +1,40 @@
+.yqd-containers {
+   background-image: url('http://193.112.5.238:3000/pc/b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 10px) !important;
+}
+.yqd-wrapper {
+    display:  flex;
+    justify-content:center;
+    
+    text-align: center;
+    padding-top: 40px;
+}
+.nav-pills a {
+    color:#fff!important;
+    
+}
+.nav-pills li {
+    text-align: center !important;
+}
+.nav-pills li a {
+padding-right:80px !important;
+   
+}
+.pills>li.active>a:hover {
+    background-color:transparent !important
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important
+}
+.yqd-logo {
+    width: 171px;
+    height: 47px;
+    margin-right: 35px;
+    margin-top: -3px;
+}
+.yqd-context {
+    padding-top: 300px;
+}
